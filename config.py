@@ -7,8 +7,8 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "7148807362:AAHpSBr1G0tWXK_dmWWKnEcFxz1M5RZATVE") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","nakflixlink5bot")     
-    DB_URL  = os.environ.get("DB_URL","mongodb+srv://bakflixbotestbot:alpha3720@nakflixlink5bot.h7n7u.mongodb.net/?retryWrites=true&w=majority")
+    DB_NAME = os.environ.get("DB_NAME","renamerbot")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://alphakiti:alpha3720@renamerbot.9ux2j.mongodb.net/?retryWrites=true&w=majority")
  
     # other configs
     BOT_UPTIME  = time.time()
