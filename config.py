@@ -2,26 +2,26 @@ import os, time
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "14298205")
+    API_HASH  = os.environ.get("API_HASH", "28df6d84da76d8606bf5f0e71ecfb62c")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7148807362:AAHpSBr1G0tWXK_dmWWKnEcFxz1M5RZATVE") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","rename")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","nakflixlink5bot")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://bakflixbotestbot:alpha3720@nakflixlink5bot.h7n7u.mongodb.net/?retryWrites=true&w=majority")
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN = int(os.environ.get("ADMIN", ""))
+    START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/568e33f4bb042042647ca.jpg")
+    ADMIN = int(os.environ.get("ADMIN", "1458235021"))
 
     # channels logs
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1002271917654") 
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001870385542"))
     
 
     # wes response configuration     
-    PORT = int(os.environ.get("PORT", ""))
+    PORT = int(os.environ.get("PORT", "8080"))
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
 
 #ʀᴀᴘᴏ ᴄʀᴇᴀᴛᴏʀ https://github.com/AshutoshGoswami24
